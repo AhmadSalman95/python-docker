@@ -2,7 +2,6 @@ from flask import Flask
 import mysql.connector
 import json
 
-# hello
 app = Flask(__name__)
 
 @app.route('/')
